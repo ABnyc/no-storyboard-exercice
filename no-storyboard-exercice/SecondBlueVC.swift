@@ -11,7 +11,6 @@ import UIKit
 class SecondBlueVC: UIViewController {
     
     var thirdGreenVC: ThirdGreenVC!
-    var firstRedVC: FirstRedVC!
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -45,10 +44,7 @@ class SecondBlueVC: UIViewController {
     
     @IBAction func backToRed(sender: AnyObject) {
         
-        firstRedVC = FirstRedVC(nibName: "FirstRedVC", bundle: nil)
-        self.presentViewController(firstRedVC, animated: true, completion: nil)
-        
-        print("back to red")
+        dismissViewControllerAnimated(true, completion: nil)
     }
     
 

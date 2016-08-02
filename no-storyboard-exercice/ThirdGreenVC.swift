@@ -22,9 +22,11 @@ class ThirdGreenVC: UIViewController {
     }
     
     @IBAction func backToBlue(sender:AnyObject){
-        secondBlueVC = SecondBlueVC(nibName: "SecondBlueVC", bundle: nil)
-        self.presentViewController(secondBlueVC, animated: true, completion: nil)
-        print ("back to blue")
+//        secondBlueVC = SecondBlueVC(nibName: "SecondBlueVC", bundle: nil)
+//        self.presentViewController(secondBlueVC, animated: true, completion: nil)
+        
+        dismissViewControllerAnimated(true, completion: nil)
+        //print ("back to blue")
         
         
     }

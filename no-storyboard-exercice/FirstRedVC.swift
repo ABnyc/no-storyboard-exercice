@@ -8,11 +8,11 @@
 
 import UIKit
 
-var secondBlueVC :  SecondBlueVC!
+
 
 class FirstRedVC: UIViewController {
     
-    //var secondBlueVC :  SecondBlueVC!
+    var secondBlueVC :  SecondBlueVC!
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
