@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstRedVC" customModule="no_storyboard_exercice" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="sx9-fv-5Eg" id="0tK-HS-pF4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="sx9-fv-5Eg">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v68-bs-SSu">
+                    <rect key="frame" x="215" y="192" width="159" height="30"/>
+                    <state key="normal" title="Go To Blue">
+                        <color key="titleColor" red="0.99267833770000002" green="0.99267833770000002" blue="0.99267833770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="GoToBlue:" destination="-1" eventType="touchUpInside" id="eQY-yh-YsB"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.13350207929999999" blue="0.2939412159" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="v68-bs-SSu" firstAttribute="centerX" secondItem="sx9-fv-5Eg" secondAttribute="centerX" id="NG8-R1-Vpe"/>
+                <constraint firstItem="v68-bs-SSu" firstAttribute="centerY" secondItem="sx9-fv-5Eg" secondAttribute="centerY" id="VkR-Ea-Hog"/>
+            </constraints>
+            <point key="canvasLocation" x="300" y="410"/>
+        </view>
+    </objects>
+</document>
